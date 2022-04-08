@@ -1,45 +1,105 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" },
-        { "id": 4, "name": "Rupert", "breed": "Unknown, not from Earth" },
-        { "id": 5, "name": "Bosco", "breed": "Terrier Mix" },
-        { "id": 6, "name": "Pepper", "breed": "Dalmatian" }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Luke Skywalker",
-            "address": "976 Tatooine Dr."
-        },
-        {
-            "id": 2,
-            "name": "Padmé Amidala",
-            "address": "1211 Naboo Lane"
-        },
-        {
-            "id": 3,
-            "name": "Bruce Campbell",
-            "address": "732 Groovy Terrace"
-        },
-        {
-            "id": 4,
-            "name": "Steve Torgo",
-            "address": "665 Valley Lodge Place"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Rupert",
+      "breed": "Unknown, not from Earth",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bosco",
+      "breed": "Terrier Mix",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Pepper",
+      "breed": "Dalmatian",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "name": "Bogie",
+      "breed": "Labradoodle",
+      "customerId": 3,
+      "locationId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "address": "976 Tatooine Dr."
+    },
+    {
+      "id": 3,
+      "name": "Bruce Campbell",
+      "address": "732 Groovy Terrace"
+    },
+    {
+      "id": 4,
+      "name": "Steve Torgo",
+      "address": "665 Valley Lodge Place"
+    },
+    {
+      "id": 5,
+      "name": "Bunny Lebowski",
+      "address": "905 Loma Vista Dr"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "PJ Harvey",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Nick Cave",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "John Waters",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Pearl Forrester",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville West",
+      "address": "1234 Rupert Street"
+    },
+    {
+      "id": 4,
+      "name": "Nashville East",
+      "address": "44 Some Street"
+    }
+  ]
 }

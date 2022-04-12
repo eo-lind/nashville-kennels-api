@@ -5,20 +5,23 @@
       "name": "Esme",
       "breed": "Pitbull",
       "customerId": 1,
+      "dateAdmitted": "2022-04-12",
       "locationId": 2
     },
     {
       "id": 4,
-      "name": "Rupert",
+      "name": "Rupert!",
       "breed": "Unknown, not from Earth",
-      "customerId": 4,
-      "locationId": 2
+      "customerId": 1,
+      "dateAdmitted": "2022-04-12",
+      "locationId": 1
     },
     {
       "id": 5,
       "name": "Bosco",
       "breed": "Terrier Mix",
       "customerId": 3,
+      "dateAdmitted": "2022-04-12",
       "locationId": 2
     },
     {
@@ -26,36 +29,79 @@
       "name": "Pepper",
       "breed": "Dalmatian",
       "customerId": 3,
+      "dateAdmitted": "2022-04-12",
       "locationId": 2
     },
     {
-      "id": 7,
+      "name": "P22",
+      "breed": "Mountain Lion",
+      "locationId": 3,
+      "customerId": 5,
+      "dateAdmitted": "2022-04-12",
+      "id": 8
+    },
+    {
+      "name": "DeMille",
+      "breed": "chimpanzee",
+      "locationId": 3,
+      "customerId": 6,
+      "dateAdmitted": "2022-04-12",
+      "id": 9
+    },
+    {
       "name": "Bogie",
-      "breed": "Labradoodle",
-      "customerId": 3,
-      "locationId": 3
+      "breed": "Goldendoodle",
+      "locationId": 1,
+      "customerId": 5,
+      "dateAdmitted": "2022-04-12",
+      "id": 10
+    },
+    {
+      "name": "Bev",
+      "breed": "Chihuahua",
+      "locationId": 2,
+      "customerId": 2,
+      "dateAdmitted": "2022-04-12",
+      "id": 11
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Luke Skywalker",
-      "address": "976 Tatooine Dr."
+      "address": "976 Tatooine Dr.",
+      "email": "luke@bn.com"
+    },
+    {
+      "id": 2,
+      "name": "Bruce Campbell",
+      "address": "732 Groovy Terrace",
+      "email": "bruce@bn.com",
+      "locationId": 4
     },
     {
       "id": 3,
-      "name": "Bruce Campbell",
-      "address": "732 Groovy Terrace"
+      "name": "Steve Torgo",
+      "address": "665 Valley Lodge Place",
+      "email": "torgo@bn.com"
     },
     {
       "id": 4,
-      "name": "Steve Torgo",
-      "address": "665 Valley Lodge Place"
+      "name": "Bunny Lebowski",
+      "address": "905 Loma Vista Dr",
+      "email": "bunny@bn.com"
     },
     {
+      "name": "Nic Cage",
+      "address": "5400 Los Feliz Blvd.",
+      "locationId": 3,
       "id": 5,
-      "name": "Bunny Lebowski",
-      "address": "905 Loma Vista Dr"
+      "email": "nick@bn.com"
+    },
+    {
+      "email": "norma@bn.com",
+      "name": "Norma Desmond",
+      "id": 6
     }
   ],
   "employees": [
@@ -78,6 +124,21 @@
       "id": 4,
       "name": "Pearl Forrester",
       "locationId": 2
+    },
+    {
+      "name": "TV's Frank",
+      "locationId": 3,
+      "id": 5
+    },
+    {
+      "name": "Dr. Laurence Erhardt",
+      "locationId": 4,
+      "id": 6
+    },
+    {
+      "name": "TV's Son of TV's Frank",
+      "locationId": 3,
+      "id": 7
     }
   ],
   "locations": [
